@@ -3,7 +3,9 @@ using namespace std;
 
 int main(void)
 {
-	cout << "hello" << endl;
-
+	int currentHP = 50;
+	
+	currentHP += 10;
+	cout << "현재 내 체력 : " << currentHP << endl;
 	return 0;
 }
